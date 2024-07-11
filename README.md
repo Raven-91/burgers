@@ -1,27 +1,147 @@
 # Burgers
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.1.
+Одностраничный лендинг на Angular
 
-## Development server
+## Оглавление
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1.  [Описание](#%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5)
+2.  [Установка](#%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0)
+3.  [Использование](#%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
+4.  [Скрипты](#%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D1%8B)
+5.  [Структура проекта](#%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0)
+6.  [Автор](#%D0%B0%D0%B2%D1%82%D0%BE%D1%80)
 
-## Code scaffolding
+## Описание
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Этот проект представляет собой одностраничный лендинг, созданный с использованием Angular. Проект включает в себя минималистичный дизайн, адаптивную верстку и основные функции для демонстрации контента.
 
-## Build
+## Установка
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Для запуска проекта на вашем локальном компьютере выполните следующие шаги:
 
-## Running unit tests
+1.  Убедитесь, что у вас установлены [Node.js](https://nodejs.org/) и [Angular CLI](https://angular.dev/tools/cli/setup-local).
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2.  Клонируйте репозиторий:
 
-## Running end-to-end tests
+```bash
+   git clone https://github.com/Raven-91/burgers.git
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+3. Перейдите в директорию проекта:
 
-## Further help
+```bash
+  cd burgers
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+4. Установите зависимости:
+
+```bash
+  npm install
+```
+
+## Использование
+
+Для запуска проекта в режиме разработки выполните команду:
+
+```bash
+  ng serve
+```
+
+Откройте http://localhost:4200 в вашем браузере для просмотра приложения.
+
+
+## Скрипты
+
+Основные скрипты, доступные в проекте:
+
+*   `ng serve`: Запускает проект в режиме разработки.
+*   `ng build`: Создает сборку проекта для продакшн.
+
+## Структура проекта
+
+Основные директории и файлы в проекте:
+
+*   `src/`: Исходный код приложения.
+*   `app/`: Основные компоненты и модули приложения.
+*   `assets/`: Статические ресурсы (изображения, стили и т.д.).
+*   `angular.json`: Конфигурационный файл Angular.
+*   `package.json`: Файл зависимостей и скриптов npm.
+*   `README.md`: Этот файл.
+
+## Автор
+
+Игорь Карчиньский
+
+********************************************************************************************************************
+
+Single-page landing page using Angular
+
+## Contents
+
+1.  [Description](#%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5)
+2.  [Installation](#%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0)
+3.  [Usage](#%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
+4.  [Scripts](#%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D1%8B)
+5.  [Project Structure](#%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0)
+6.  [Author](#%D0%B0%D0%B2%D1%82%D0%BE%D1%80)
+
+## Description
+
+This project is a single-page landing page created using Angular. It features a minimalist design, responsive layout, and basic functionalities to showcase content.
+
+## Installation
+
+To run the project on your local machine, follow these steps:
+
+1.  Ensure you have [Node.js](https://nodejs.org/) and [Angular CLI](https://angular.dev/tools/cli/setup-local) installed.
+
+2.  Clone the repository:
+
+```bash
+   git clone https://github.com/Raven-91/burgers.git
+```
+
+3. Navigate to the project directory:
+
+```bash
+  cd burgers
+```
+
+4. Install the dependencies:
+
+```bash
+  npm install
+```
+
+## Usage
+
+To run the project in development mode, execute the following command:
+
+```bash
+  ng serve
+```
+
+Open http://localhost:4200 in your browser to view the application.
+
+
+## Scripts
+
+Key scripts available in the project:
+
+*   `ng serve`: Starts the project in development mode.
+*   `ng build`: Builds the project for production.
+
+## Project Structure
+
+Key directories and files in the project:
+
+*   `src/`: Source code of the application.
+*   `app/`: Core components and modules of the application.
+*   `assets/`: Static assets (images, styles, etc.).
+*   `angular.json`: Angular configuration file.
+*   `package.json`: npm dependencies and scripts file.
+*   `README.md`: This file.
+
+## Author
+
+Igor Karchinskiy
