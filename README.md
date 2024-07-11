@@ -21,7 +21,7 @@
 Спасибо за использование **Burgers**! Мы надеемся, что вам понравится наш проект.
 
 *******************************************************************************************
-#Burgers
+# Burgers
 
 Welcome to the **Burgers** project page! This is a one-page landing page created using Angular.
 
